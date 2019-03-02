@@ -86,11 +86,11 @@
     border-top-left-radius:20px;
     position: absolute;
     left: 50%;
-    transform:translateX(-50%);
-    -webkit-transform:translateX(-50%);
-    -moz-transform:translateX(-50%);
-    -ms-transform:translateX(-50%);
-    -o-transform:translateX(-50%);
+    transform:translateX(-50%) rotateZ(0);
+    -webkit-transform:translateX(-50%) rotateZ(0);
+    -moz-transform:translateX(-50%) rotateZ(0);
+    -ms-transform:translateX(-50%) rotateZ(0);
+    -o-transform:translateX(-50%) rotateZ(0);
     transform-origin: bottom;
     transition: all 0.2s;
     -webkit-transition: all 0.2s;
@@ -99,11 +99,8 @@
     -o-transition: all 0.2s;
 }
 #aiguille-secondes{
-    width: 3px;
+    width: 1px;
 }
 #aiguille-minutes{
     width: 4px;
-}
-#aiguille-heures{
-
 }
