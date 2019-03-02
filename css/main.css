@@ -1,0 +1,109 @@
+.clock{
+    height: 300px;
+    width: 300px;
+    z-index: 1;
+    border-radius:50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    background-color: rgb(148, 100, 237);
+    border: 5px solid black;
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+}
+.clock-face{
+    z-index: 2;
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    border-radius:50%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    -webkit-border-radius:50%;
+    -moz-border-radius:50%;
+    -ms-border-radius:50%;
+    -o-border-radius:50%;
+    background-color: black;
+}
+.clock span{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+    color:white;
+    position: absolute;
+    
+   
+    
+}
+.h12{
+    left: 50%;
+    top: 5px;
+    transform: translate(-50%,5px);
+    -webkit-transform: translate(-50%,5px);
+    -moz-transform: translate(-50%,5px);
+    -ms-transform: translate(-50%,5px);
+    -o-transform: translate(-50%,5px);
+}
+.h9{
+    top: 50%;
+    left: 30px;
+    transform: translate(-10px,-50%);
+    -webkit-transform: translate(-10px,-50%);
+    -moz-transform: translate(-10px,-50%);
+    -ms-transform: translate(-10px,-50%);
+    -o-transform: translate(-10px,-50%);
+}
+.h6{
+    left: 50%;
+    bottom: 10px;
+}
+.h3{
+    top: 50%;
+    right:10px;
+    transform: translate(-10px,-50%);
+    -webkit-transform: translate(-10px,-50%);
+    -moz-transform: translate(-10px,-50%);
+    -ms-transform: translate(-10px,-50%);
+    -o-transform: translate(-10px,-50%);
+}
+.aiguille{
+    height: 50%;
+    width: 5px;
+    background-color: #fff;
+    border-top-right-radius:20px;
+    border-top-left-radius:20px;
+    position: absolute;
+    left: 50%;
+    transform:translateX(-50%);
+    -webkit-transform:translateX(-50%);
+    -moz-transform:translateX(-50%);
+    -ms-transform:translateX(-50%);
+    -o-transform:translateX(-50%);
+    transform-origin: bottom;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+}
+#aiguille-secondes{
+    width: 3px;
+}
+#aiguille-minutes{
+    width: 4px;
+}
+#aiguille-heures{
+
+}
