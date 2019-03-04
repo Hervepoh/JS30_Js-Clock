@@ -5,7 +5,7 @@ function setClock(){
     const secondes=date.getSeconds();
     const secondesDegree=(secondes/60)*360;
     const minutesDegree=(minutes/60)*360;
-    const heuresDegree=(heures/60)*360;
+    const heuresDegree=(heures/12)*360;
 
     const aiguilleSecondes=document.getElementById('aiguille-secondes');
     const aiguilleMinutes=document.getElementById('aiguille-minutes');
